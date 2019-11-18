@@ -6,33 +6,33 @@
 package fr.toulouse.miage;
 
 import java.util.ArrayList;
-import javax.ejb.Singleton;
 import javax.ejb.Stateless;
+import sun.util.calendar.BaseCalendar;
 
 /**
  *
  * @author ludoviclajournade
  */
 @Stateless
-public class GestionSalles implements GestionSallesLocal {
-    
-    
-    public GestionSalles() {
-        
-    }
+public class GestionFormateurs implements GestionFormateursLocal {
 
     @Override
-    public void creeSalle(String nom, Integer capacite) throws Exception {
+    public String consultationFormateurs() throws Exception {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    public void modificationSalle(String idSalle, String nom, Integer capacite, ArrayList<String> listFormations) throws Exception {
+    public void creeFormateur(String nom, String prenom, String enseignement, BaseCalendar.Date dateN, ArrayList<String> listFormations) throws Exception {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    public void suppressionSalle(String idSalle) throws Exception {
+    public void modificationFormateur(String idFormateur, String nom, String prenom, String enseignement, BaseCalendar.Date dateN, ArrayList<String> listFormations) throws Exception {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void suppressionFormateur(String idFormateur) throws Exception {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     

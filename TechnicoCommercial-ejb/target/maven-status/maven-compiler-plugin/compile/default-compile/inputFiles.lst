@@ -1,4 +1,10 @@
-/Users/ludoviclajournade/GitProjects/TechnicoCommercial/TechnicoCommercial-ejb/src/main/java/fr/toulouse/miage/SalSalles.java
-/Users/ludoviclajournade/GitProjects/TechnicoCommercial/TechnicoCommercial-ejb/src/main/java/fr/toulouse/miage/NewSessionBean.java
+/Users/ludoviclajournade/GitProjects/TechnicoCommercial/TechnicoCommercial-ejb/src/main/java/fr/toulouse/miage/GestionFormationsLocal.java
+/Users/ludoviclajournade/GitProjects/TechnicoCommercial/TechnicoCommercial-ejb/src/main/java/fr/toulouse/miage/GestionCatalogueLocal.java
+/Users/ludoviclajournade/GitProjects/TechnicoCommercial/TechnicoCommercial-ejb/src/main/java/fr/toulouse/miage/GestionFormateurs.java
+/Users/ludoviclajournade/GitProjects/TechnicoCommercial/TechnicoCommercial-ejb/src/main/java/entities/SalSalles.java
+/Users/ludoviclajournade/GitProjects/TechnicoCommercial/TechnicoCommercial-ejb/src/main/java/fr/toulouse/miage/GestionFormations.java
+/Users/ludoviclajournade/GitProjects/TechnicoCommercial/TechnicoCommercial-ejb/src/main/java/fr/toulouse/miage/GestionCatalogue.java
+/Users/ludoviclajournade/GitProjects/TechnicoCommercial/TechnicoCommercial-ejb/src/main/java/entities/NewSessionBean.java
+/Users/ludoviclajournade/GitProjects/TechnicoCommercial/TechnicoCommercial-ejb/src/main/java/fr/toulouse/miage/GestionFormateursLocal.java
 /Users/ludoviclajournade/GitProjects/TechnicoCommercial/TechnicoCommercial-ejb/src/main/java/fr/toulouse/miage/GestionSallesLocal.java
 /Users/ludoviclajournade/GitProjects/TechnicoCommercial/TechnicoCommercial-ejb/src/main/java/fr/toulouse/miage/GestionSalles.java

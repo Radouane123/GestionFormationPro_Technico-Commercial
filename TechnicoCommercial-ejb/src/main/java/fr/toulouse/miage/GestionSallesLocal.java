@@ -5,6 +5,7 @@
  */
 package fr.toulouse.miage;
 
+import java.util.ArrayList;
 import javax.ejb.Local;
 
 /**
@@ -13,6 +14,7 @@ import javax.ejb.Local;
  */
 @Local
 public interface GestionSallesLocal {
-    String getSalles() throws Exception;
     void creeSalle(String nom, Integer capacite) throws Exception;
+    void modificationSalle(String idSalle, String nom, Integer capacite, ArrayList<String> listFormations) throws Exception;
+    void suppressionSalle(String idSalle) throws Exception;
 }

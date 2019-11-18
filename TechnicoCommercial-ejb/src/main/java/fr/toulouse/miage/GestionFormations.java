@@ -5,8 +5,6 @@
  */
 package fr.toulouse.miage;
 
-import java.util.ArrayList;
-import javax.ejb.Singleton;
 import javax.ejb.Stateless;
 
 /**
@@ -14,25 +12,15 @@ import javax.ejb.Stateless;
  * @author ludoviclajournade
  */
 @Stateless
-public class GestionSalles implements GestionSallesLocal {
-    
-    
-    public GestionSalles() {
-        
-    }
+public class GestionFormations implements GestionFormationsLocal {
 
     @Override
-    public void creeSalle(String nom, Integer capacite) throws Exception {
+    public void annulerFormation(String idIFormation) throws Exception {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    public void modificationSalle(String idSalle, String nom, Integer capacite, ArrayList<String> listFormations) throws Exception {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public void suppressionSalle(String idSalle) throws Exception {
+    public boolean verifExistFormation(String idIFormation) throws Exception {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     

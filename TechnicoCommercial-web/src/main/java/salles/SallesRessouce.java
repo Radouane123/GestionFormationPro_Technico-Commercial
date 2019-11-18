@@ -27,6 +27,6 @@ public class SallesRessouce {
     
     @GET
     public String getSalles() throws Exception {
-       return gestionSalles.getSalles();
+       return "Mes salles";
     }
 }

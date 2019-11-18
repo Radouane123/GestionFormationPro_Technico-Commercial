@@ -1,5 +1,11 @@
-fr/toulouse/miage/SalSalles_.class
-fr/toulouse/miage/NewSessionBean.class
+fr/toulouse/miage/GestionFormations.class
+entities/SalSalles.class
+fr/toulouse/miage/GestionFormationsLocal.class
+entities/NewSessionBean.class
+fr/toulouse/miage/GestionCatalogueLocal.class
+fr/toulouse/miage/GestionFormateurs.class
+fr/toulouse/miage/GestionCatalogue.class
 fr/toulouse/miage/GestionSalles.class
-fr/toulouse/miage/SalSalles.class
+entities/SalSalles_.class
 fr/toulouse/miage/GestionSallesLocal.class
+fr/toulouse/miage/GestionFormateursLocal.class
