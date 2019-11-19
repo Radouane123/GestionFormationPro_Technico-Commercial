@@ -1,4 +1,5 @@
 helloworld/ApplicationConfig.class
 helloworld/HelloWorldResource.class
 helloworld/NameStorageBean.class
-salles/SallesRessouce.class
+ressources/SallesRessouce.class
+ressources/CatalogueRessource.class

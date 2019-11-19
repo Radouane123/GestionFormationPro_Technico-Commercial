@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package salles;
+package ressources;
 
 import javax.ejb.EJB;
 import javax.ws.rs.GET;
