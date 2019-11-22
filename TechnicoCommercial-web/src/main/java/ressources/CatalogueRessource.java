@@ -6,6 +6,7 @@
 package ressources;
 
 import fr.toulouse.miage.GestionCatalogue;
+import fr.toulouse.miage.GestionCatalogueLocal;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.ejb.EJB;
@@ -20,7 +21,7 @@ import javax.ws.rs.Path;
 public class CatalogueRessource {
     
     @EJB
-    private GestionCatalogue gestionCatalogue;
+    private GestionCatalogueLocal gestionCatalogue;
     
     public CatalogueRessource() {}
     
