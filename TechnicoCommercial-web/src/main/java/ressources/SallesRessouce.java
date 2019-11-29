@@ -8,7 +8,7 @@ package ressources;
 import javax.ejb.EJB;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
-import fr.toulouse.miage.GestionSallesLocal;
+import metier.GestionSallesLocal;
 import javax.ejb.Stateless;
 
 /**

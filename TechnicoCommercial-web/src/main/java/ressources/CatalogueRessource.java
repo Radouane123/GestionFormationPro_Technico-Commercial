@@ -5,8 +5,8 @@
  */
 package ressources;
 
-import fr.toulouse.miage.GestionCatalogue;
-import fr.toulouse.miage.GestionCatalogueLocal;
+import metier.GestionCatalogue;
+import metier.GestionCatalogueLocal;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.ejb.EJB;
